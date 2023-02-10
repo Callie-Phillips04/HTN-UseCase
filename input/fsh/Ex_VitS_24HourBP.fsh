@@ -1,7 +1,5 @@
 
-
-
-Instance: TwentyFourHourBloodPressure-example
+Instance: TwentyFourHourBloodPressure-example-MS
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/twenty-four-hour-blood-pressure"
