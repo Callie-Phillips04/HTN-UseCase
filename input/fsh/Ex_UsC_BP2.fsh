@@ -1,4 +1,4 @@
-Instance: bloodpressure
+Instance: US-Core-BP-Example-2
 InstanceOf: Observation
 Usage: #example
 * meta.extension[0].url = "http://hl7.org/fhir/StructureDefinition/instance-name"

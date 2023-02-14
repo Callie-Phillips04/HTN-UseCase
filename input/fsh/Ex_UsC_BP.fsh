@@ -1,4 +1,4 @@
-Instance: undefined
+Instance: US-Core-BP-Example-1
 InstanceOf: Observation
 Usage: #example
 * meta.extension[0].url = "http://hl7.org/fhir/StructureDefinition/instance-name"

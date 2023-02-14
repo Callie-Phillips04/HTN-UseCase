@@ -1,6 +1,6 @@
 /// Vital Signs IG Average Blood Pressure Profile Example  
 
-Instance: AverageBloodPressure-example
+Instance: AverageBloodPressure-example-MS
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure"
