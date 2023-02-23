@@ -11,7 +11,7 @@ The objective of this implementation guide is to create an integrated standard t
 This can potentially improve the awareness of guidelines, identification of disease, and management of individuals with hypertension and increase the proportion of individuals with hypertension who are treated to goal.
 
 
-### Background
+### Hypertension Background
 
 - Hypertension affects 115 million adults in America. 
     - 85% of African-Americans will develop hypertension in their lifetime. 
