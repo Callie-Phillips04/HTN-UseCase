@@ -1,6 +1,6 @@
 
-Instance: TwentyFourHourBloodPressure-example-MS
-InstanceOf: Observation
+Instance: TwentyFourHourBloodPressure-MS
+InstanceOf: TwentyFourHourBloodPressure
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/twenty-four-hour-blood-pressure"
 * extension[0].url = "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"
@@ -11,7 +11,7 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#97844-5 "Blood Pressure panel 24 hour mean"
-* subject.display = "RandomMan 1234"
+* subject.display = "Jane Doe"
 * effectivePeriod.start = "2023-10-16T12:30:00+10:00"
 * effectivePeriod.end = "2023-10-17T12:30:00+10:00"
 * bodySite = http://snomed.info/sct#723961002 "Structure of left brachial artery (body structure)"
@@ -22,15 +22,15 @@ Usage: #example
 * component[+].code = http://loinc.org#8472-3 "Diastolic blood pressure 24 hour mean"
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: TwentyFourHourBloodPressure-example-Mandatory
-InstanceOf: Observation
+Instance: TwentyFourHourBloodPressure-Mandatory
+InstanceOf: TwentyFourHourBloodPressure
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/twenty-four-hour-blood-pressure"
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#97844-5 "Blood Pressure panel 24 hour mean"
-* subject.display = "RandomMan 1234"
+* subject.display = "John Doe"
 * effectivePeriod.start = "2023-10-16T12:30:00+10:00"
 * effectivePeriod.end = "2023-10-17T12:30:00+10:00"
 * component[0].code = http://loinc.org#8490-5 "Systolic blood pressure 24 hour mean"

@@ -1,5 +1,8 @@
 # CardX: Hypertension Management
 
+<div style="text-align: center;">
+<img src="image2022-7-27_8-34-11.png" />
+</div>>
 
 ### Objective
 
@@ -7,7 +10,7 @@ The objective of this implementation guide is to create an integrated standard t
 
 This can potentially improve the awareness of guidelines, identification of disease, and management of individuals with hypertension and increase the proportion of individuals with hypertension who are treated to goal.
 
-Our initial fouce will be on the 
+
 ### Background
 
 - Hypertension affects 115 million adults in America. 
@@ -21,15 +24,17 @@ Home blood pressure monitoring is the standard for hypertension monitoring, but 
 
 Housed within the CodeX member-driven HL7 FHIR Accelerator, the mission of CardX (Cardiovascular data eXchange) is to engage a diverse group of stakeholders in the cardiovascular domain to enable standards-based interoperability in cardiovascular health and healthcare.
 
-#### CardX Background
-CardX follows the approach established by the CodeX FHIR Accelerator. CardX projects center on use cases targeting the collection and sharing of real-world patient clinical data to inform clinical decision-making, evaluate quality and performance, support participation in clinical registries, and contribute to new discovery.
+
+
 
 
 ### HTN Management Goals 
 
-<div style="text-align: center;">
-<img src="cardx_relation_diagram.png" alt="Figure 1. SMBP Workflow" />
-</div>>
+<p align="center">
+<img src="cardx_relation_diagram.png" width="600" >
+</p>
+
+
 
 
 - Create integrated, automated, vendor-agnostic hypertension standards by developing FHIR resources and open APIs that enable interoperable, scalable, and accessible hypertension management both at home and in the clinic
@@ -50,7 +55,6 @@ A narrative example of a patient journey and use case for this implementation gu
 - Personal Health Intermediaries will be able to easily send and receive data to enhance a patient's ability to be part of their own care team. 
 - EHR vendors will enable a service that will help clinicians treat patients.
 
-### Overview
 
 
 

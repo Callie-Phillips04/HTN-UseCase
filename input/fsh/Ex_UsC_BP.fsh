@@ -1,10 +1,8 @@
-Instance: US-Core-BP-Example-1
+Instance: US-Core-BP-Example-MS
 InstanceOf: Observation
 Usage: #example
 * meta.extension[0].url = "http://hl7.org/fhir/StructureDefinition/instance-name"
 * meta.extension[=].valueString = "Blood Pressure Example"
-* meta.extension[+].url = "http://hl7.org/fhir/StructureDefinition/instance-description"
-* meta.extension[=].valueMarkdown = "This is a blood pressure example for the *Vitalsigns Profile*."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
@@ -12,7 +10,6 @@ Usage: #example
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * code.text = "Blood pressure systolic and diastolic"
 * subject = Reference(Patient/example) "Amy Shaw"
-* encounter.display = "GP Visit"
 * effectiveDateTime = "1999-07-02"
 * component[0].code = http://loinc.org#8480-6 "Systolic blood pressure"
 * component[=].code.text = "Systolic blood pressure"

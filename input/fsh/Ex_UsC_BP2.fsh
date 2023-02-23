@@ -1,10 +1,8 @@
-Instance: US-Core-BP-Example-2
+Instance: US-Core-BP-Example-AbsentReason
 InstanceOf: Observation
 Usage: #example
 * meta.extension[0].url = "http://hl7.org/fhir/StructureDefinition/instance-name"
 * meta.extension[=].valueString = "BP Data Absent Example"
-* meta.extension[+].url = "http://hl7.org/fhir/StructureDefinition/instance-description"
-* meta.extension[=].valueMarkdown = "This is a bp data absent example for the *Vitalsigns Profile* showing how to reprsesent blood pressure with a missing diastolic measurement."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"

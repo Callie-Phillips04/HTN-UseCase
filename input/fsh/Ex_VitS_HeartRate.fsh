@@ -1,6 +1,6 @@
 
-Instance: heartRate-example-MS
-InstanceOf: Observation
+Instance: HeartRate-MS
+InstanceOf: heart-rate
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate"
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"
@@ -18,14 +18,14 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
-* subject.display = "Small Adult1234"
+* subject.display = ""
 * effectiveDateTime = "2023-10-16T12:12:29-09:00"
 * valueQuantity = 120 '/min' "'/min'"
 * bodySite = http://snomed.info/sct#368505008 "Structure of right ulnar artery"
 * method = http://snomed.info/sct#239516002 "Monitoring procedure (regime/therapy)"
 
-Instance: heartRate-example-Mandatory
-InstanceOf: Observation
+Instance: HeartRate-Mandatory
+InstanceOf: heart-rate
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate"
 * status = #final
@@ -33,5 +33,5 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
-* subject.display = "Small Adult1234"
+* subject.display = "Sally Wright"
 * effectiveDateTime = "2023-10-16T12:12:29-09:00"

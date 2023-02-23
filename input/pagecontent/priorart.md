@@ -9,7 +9,6 @@
 | [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) | PHD/PHG -> EHR/CDS, provides mappings from device standards (ISO, continua) | Workflow Exchange/ Patterns| STU 1 published 05/2022 |
 | [Physical Activity](https://build.fhir.org/ig/HL7/physical-activity/) | Standardizes measurement, reporting and interventions to improve physical activity levels | Workflow Exchange/ Patterns | Draft – Ballot TBD | 
 | [MCC eCare Plan](https://build.fhir.org/ig/HL7/fhir-us-mcc/) | Defines profiles to exchange Care Plan information. | Workflow Exchange Patterns and Terminology | STU 1 ballot |
-{: .grid }
 
 
 # Vital Signs IG 
@@ -56,7 +55,7 @@
 |Extension: Exercise Association|0..1 MS|The exercise state associated with the measurement.|Extension(ExerciseAssociationExt)|
 |Extension: Measurement Protocol|0..1 MS|Rules and algorithm for Average Blood Pressure calculation.|Measurement Setting value set (extensible)|
 
-## OHSU Hypertension IG 
+# OHSU Hypertension IG 
 - **Purpose:** describe the AHRQ-funded, patient facing clinical decision support logic and value set encompassed in the Collaboration Oriented Application to control high blood pressure 
     - Uses CPG on FHIR framework to implement recommended standards 
 - The tool assists high blood pressure treatment by... 
@@ -69,32 +68,7 @@
         - The tool provides messages that patients can copy into MyChart to alert the Care team
 - This IG does not define Profiles rather Plan Definitions 
 
-### OHSU Value Sets 
-|Terminology Value Sets |Definitions |
-|:----|:----|
-|**Ambulatory Blood Pressure Monitoring (ABPM)**|This value set contains concepts that represent ambulatory blood pressure monitoring.|
-|**Hypertension**|A set of SNOMED codes for Hypertension|
-|Conditions Adversely Related to Antihypertensives|A set of condition codes that may indicate an adverse reaction to an Antihypertensive Medication|
-|Tobacco User|The purpose of this value set is to represent concepts for an observation of tobacco user status.|
-|Average Number of Drinks per Drinking Day|The purpose of this value set is to represent concepts for assessments measuring the number of alcoholic drinks per drinking day.|
-|Pregnancy|This value set contains concepts related to the diagnosis of pregnancy.|
-|Blood Pressure Measured|This valueset contains codes for defining Blood Pressure Measured code attribute.|
-|ValueSet/2.16.840.1.113762.1.4.1178.10| |
-|BMI Follow Up Plan SNOMEDCT|Numerator criteria as defined in Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan MSSPPREV9.|
-|Counseling for Nutrition|The purpose of this value set is to represent concepts for nutrition counseling interventions.|
-|ValueSet/2.16.840.1.113762.1.4.1200.242-20221201| |
-|Weight Reduction Recommendations|This value set contains concepts related to weight loss counseling.|
-|BMI Ratio|The purpose of this value set is to represent concepts for a physical exam where a body mass index (BMI) ratio is calculated.|
-|ValueSet/2.16.840.1.113883.3.464.1003.104.12.1016| |
-|Physical Activity Recommendations|This value set contains concepts related to physical activity counseling procedures.|
-|End Stage Renal Disease|This value set contains concepts that represent a diagnosis of end stage renal disease.|
-|Hospice care ambulatory|This value set contains concepts that represent patients receiving hospice care outside of a hospital or long term care facility.|
-|Non essential Hypertension SNOMEDCT|This value set contains terms defining non-essential hypertension.|
-|Alcohol Brief Intervention and Counseling|Alcohol brief intervention and counseling services that may be provided to an individual that screens “positive” for excessive alcohol intake (i.e., unhealthy alcohol intake, risky alcohol use) in an outpatient setting.|
-|Diastolic Blood Pressure|This valueset contains codes for defining Diastolic Blood Pressure.|
-|Tobacco Use Cessation Counseling|The purpose of this value set is to represent concepts for tobacco cessation counseling.|
-|Systolic blood pressure|This valueset contains codes for defining Systolic Blood Pressure.|
-|Alcohol Abuse Disorder|This value set contains concepts related to alcohol abuse conditions.|
+
 
 # Personal Health Device IG 
 - **Overview:** defines the use of FHIR resources to convey measurements and supporting data from communicating Personal Health Devices (PHDs) to receiving systems for electronic medical records, clinical decision support, and medical data archiving for aggregate quality measurement and research purposes.

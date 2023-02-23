@@ -1,6 +1,6 @@
 //Vital Sign IG Blood Pressure Panel Example (MS)
-Instance: BloodPressurePanel-example-MS
-InstanceOf: Observation
+Instance: BloodPressurePanel-MS
+InstanceOf: blood-pressure-panel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"
@@ -15,28 +15,28 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
-* subject.display = "Random Person1234"
+* subject.display = "John Doe"
 * effectiveDateTime = "2019-10-16T12:12:29-09:00"
-* performer.display = "A. Pediatrician6"
+* performer.display = "Dr. Smith"
 * bodySite = http://snomed.info/sct#723962009 "Structure of right brachial artery (body structure)"
 * device = Reference(Device/BPDevice1-example)
 * method = http://snomed.info/sct#17146006 "Arterial pressure monitoring, non-invasive method (regime/therapy)"
 * component[0].code = http://loinc.org#8480-6
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
-* component[+].code = http://loinc.org#8462-4
+* component[+].code = http://loinc.org#846
 * component[=].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 
 //Vital Sign IG Blood Pressure Panel Example (Mandatory) 
-Instance: BloodPressurePanel-example-Madatory
-InstanceOf: Observation
+Instance: BloodPressurePanel-Madatory
+InstanceOf: blood-pressure-panel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
-* subject.display = "Some Adult1234"
+* subject.display = "John Doe"
 * effectiveDateTime = "2022-02-10T12:00:29-09:00"
 * component[0].code = http://loinc.org#8480-6
 * component[=].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
