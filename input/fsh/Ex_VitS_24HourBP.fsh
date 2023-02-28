@@ -11,12 +11,12 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#97844-5 "Blood Pressure panel 24 hour mean"
-* subject.display = "Jane Doe"
+* subject = Reference(patient-example-Jake-Donald)
 * effectivePeriod.start = "2023-10-16T12:30:00+10:00"
 * effectivePeriod.end = "2023-10-17T12:30:00+10:00"
 * bodySite = http://snomed.info/sct#723961002 "Structure of left brachial artery (body structure)"
 * method = http://snomed.info/sct#17146006 "Arterial pressure monitoring, non-invasive method (regime/therapy)"
-* device = Reference(Device/BPDevice2-example)
+* device = Reference(phd-bloodpressuremonitor-MS)
 * component[0].code = http://loinc.org#8490-5 "Systolic blood pressure 24 hour mean"
 * component[=].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[+].code = http://loinc.org#8472-3 "Diastolic blood pressure 24 hour mean"
@@ -30,7 +30,7 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = http://loinc.org#97844-5 "Blood Pressure panel 24 hour mean"
-* subject.display = "John Doe"
+* subject = Reference(patient-example-Jake-Donald)
 * effectivePeriod.start = "2023-10-16T12:30:00+10:00"
 * effectivePeriod.end = "2023-10-17T12:30:00+10:00"
 * component[0].code = http://loinc.org#8490-5 "Systolic blood pressure 24 hour mean"

@@ -4,20 +4,24 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="StructureDefinition/average-blood-pressure" key="StructureDefinition-average-blood-pressure" name="Average Blood Pressure"/>
+<artifact id="Observation/AverageBloodPressure-Components" key="Observation-AverageBloodPressure-Components" name="AverageBloodPressure-Components"/>
 <artifact id="Observation/AverageBloodPressure-MS" key="Observation-AverageBloodPressure-MS" name="AverageBloodPressure-MS"/>
 <artifact id="Observation/AverageBloodPressure-Mandatory" key="Observation-AverageBloodPressure-Mandatory" name="AverageBloodPressure-Mandatory"/>
-<artifact id="Observation/AverageBloodPressure-reference-individual-readings" key="Observation-AverageBloodPressure-reference-individual-readings" name="AverageBloodPressure-reference-individual-readings"/>
 <artifact id="Observation/BloodPressurePanel-MS" key="Observation-BloodPressurePanel-MS" name="BloodPressurePanel-MS"/>
 <artifact id="Observation/BloodPressurePanel-Madatory" key="Observation-BloodPressurePanel-Madatory" name="BloodPressurePanel-Madatory"/>
 <artifact id="Observation/HeartRate-MS" key="Observation-HeartRate-MS" name="HeartRate-MS"/>
 <artifact id="Observation/HeartRate-Mandatory" key="Observation-HeartRate-Mandatory" name="HeartRate-Mandatory"/>
-<artifact id="StructureDefinition/cardx-hypertension-patient" key="StructureDefinition-cardx-hypertension-patient" name="Hypertension Patient Profile"/>
+<artifact id="Observation/Individual-Reading-1" key="Observation-Individual-Reading-1" name="Individual-Reading-1"/>
+<artifact id="Observation/Individual-Reading-2" key="Observation-Individual-Reading-2" name="Individual-Reading-2"/>
+<artifact id="Observation/Individual-Reading-3" key="Observation-Individual-Reading-3" name="Individual-Reading-3"/>
 <artifact id="Observation/TwentyFourHourBloodPressure-MS" key="Observation-TwentyFourHourBloodPressure-MS" name="TwentyFourHourBloodPressure-MS"/>
 <artifact id="Observation/TwentyFourHourBloodPressure-Mandatory" key="Observation-TwentyFourHourBloodPressure-Mandatory" name="TwentyFourHourBloodPressure-Mandatory"/>
 <artifact id="Observation/US-Core-BP-Example-AbsentReason" key="Observation-US-Core-BP-Example-AbsentReason" name="US-Core-BP-Example-AbsentReason"/>
 <artifact id="Observation/US-Core-BP-Example-MS" key="Observation-US-Core-BP-Example-MS" name="US-Core-BP-Example-MS"/>
+<artifact id="Patient/patient-example-Jake-Donald" key="Patient-patient-example-Jake-Donald" name="patient-example-Jake-Donald"/>
+<artifact id="Patient/patient-example-Sally-Sue" key="Patient-patient-example-Sally-Sue" name="patient-example-Sally-Sue"/>
 <artifact id="Device/phd-bloodpressuremonitor-MS" key="Device-phd-bloodpressuremonitor-MS" name="phd-bloodpressuremonitor-MS"/>
+<artifact id="Practitioner/practitioner-example-Mary-Hill" key="Practitioner-practitioner-example-Mary-Hill" name="practitioner-example-Mary-Hill"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

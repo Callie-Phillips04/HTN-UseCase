@@ -18,7 +18,7 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
-* subject.display = ""
+* subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-10-16T12:12:29-09:00"
 * valueQuantity = 120 '/min' "'/min'"
 * bodySite = http://snomed.info/sct#368505008 "Structure of right ulnar artery"
@@ -33,5 +33,5 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
-* subject.display = "Sally Wright"
+* subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-10-16T12:12:29-09:00"
