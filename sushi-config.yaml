@@ -72,8 +72,13 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Background: cardx-background.html
   Prior Art: priorart.html
-  Artifacts: artifacts.html
+  Examples: 
+    SMBP Examples: SMBP-protocol-examples.html
+    Manual vs. Device Examples: device-manual-generated-examples.html
+    Prior Art Conformant Examples: PriorArt-IG-Conformant-Examples.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

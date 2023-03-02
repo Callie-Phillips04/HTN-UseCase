@@ -37,7 +37,7 @@ Usage: #example
 * birthDate = "1954-02-20"
 * address.line = "49 Meadow St"
 * address.city = "Mounds"
-* address.state = "OK"
+* address.state = "MD"
 * address.postalCode = "74047"
 * address.country = "US"
 
@@ -80,5 +80,5 @@ Usage: #example
 * address.use = #home
 * address.line = "1003 Healthcare Drive"
 * address.city = "Amherst"
-* address.state = "MA"
+* address.state = "MD"
 * address.postalCode = "01002"

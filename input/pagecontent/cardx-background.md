@@ -1,5 +1,4 @@
 
-# CardX Background
 ## Revolutionizing Cardiovascular Outcomes Through a Common Standard
 - Housed within the CodeX FHIR Accelerator, the mission of CardX (Cardiovascular data eXchange) is to engage a diverse group of stakeholders in the cardiovascular domain to enable standards-based interoperability in cardiovascular health and healthcare.
 - CardX will identify opportunities and execute scalable pilots that demonstrate the value of standards-based interoperability across multiple use cases. Foundational to CardX is the development of the core CardX cardiovascular vocabulary – a standard language for key cardiovascular clinical concepts and data – and the creation of the CardX FHIR Implementation Guide.
