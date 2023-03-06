@@ -21,9 +21,9 @@
 
 | Profile | Description        |  Examples |
 |---------|--------------------|-----------|
-| (Blood Pressure Panel)(http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-blood-pressure-panel.html) | Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components. | (BP Panel Example)(https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-BloodPressurePanel-example.html) |
-| (Average Blood Pressure)(http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-average-blood-pressure.html) | A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol. The average blood pressure has a systolic and a diastolic component. | (Avg BP Example)(https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-AverageBloodPressure-example.html) |
-| (24 Hour Blood Pressure)(http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-twenty-four-hour-blood-pressure.html) | An average blood pressure (systolic and diastolic) over a twenty four hour period. | (24 Hour BP Example)(https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-TwentyFourHourBloodPressure-example.html) |
+| [Blood Pressure Panel](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-blood-pressure-panel.html) | Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components. | [BP Panel Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-BloodPressurePanel-example.html) |
+| [Average Blood Pressure](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-average-blood-pressure.html) | A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol. The average blood pressure has a systolic and a diastolic component. | [Avg BP Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-AverageBloodPressure-example.html) |
+| [24 Hour Blood Pressure](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-twenty-four-hour-blood-pressure.html) | An average blood pressure (systolic and diastolic) over a twenty four hour period. | [24 Hour BP Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-TwentyFourHourBloodPressure-example.html) |
 {: .grid }
 
 ## BP Panel Elements 
