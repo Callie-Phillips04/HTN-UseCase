@@ -18,8 +18,8 @@ How CodeX (and CardX) Works: **Use Cases => FHIR IGs + Implementations => Pilots
 
 ## CardX Goals
 - Convene cardiovascular stakeholders to develop and harmonize an open-source standard and common language for cardiovascular concepts
-Enable the collection of computable data at the point of care integrated with clinical workflows while reducing clinician burden
-Support the needs of all stakeholders and communities: patients, clinicians, registries, payers, regulators, researchers, information systems
+- Enable the collection of computable data at the point of care integrated with clinical workflows while reducing clinician burden
+- Support the needs of all stakeholders and communities: patients, clinicians, registries, payers, regulators, researchers, information systems
 - Provide the foundation for innovation and transformation of cardiovascular care
 
 

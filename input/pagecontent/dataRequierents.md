@@ -44,15 +44,15 @@
 # Hypertension Management Scenarios
 - **Purpose:** 
 1.	Patient obtained a connected device with no set-up requirements.
-    a.	Device vendor application will already have the device metadata predefined. 
-    b.	Patient health intermediary has functionality to allow patient to enter measurement setting and body site data. 
-    c.	Patient health intermediary has functionality to calculate BP averages. 
+    - Device vendor application will already have the device metadata predefined. 
+    - Patient health intermediary has functionality to allow patient to enter measurement setting and body site data. 
+    - Patient health intermediary has functionality to calculate BP averages. 
 2.	Patient obtained connected device that requires setup (Wi-Fi connected device, Bluetooth connected device)
-    a.	Device vendor gateway has functionality for patient to enter device metadata. 
+    - Device vendor gateway has functionality for patient to enter device metadata. 
 3.	Unconnected Device
-    a.	Patient can manually enter all BP measurements, device information, and BP metadata into the patient health intermediary. 
+    - Patient can manually enter all BP measurements, device information, and BP metadata into the patient health intermediary. 
 
 
 <div style="text-align: center;">
-<img src="Scenarios.png" />
+<img src="Scenarios-ig.drawio.png" />
 </div>>
