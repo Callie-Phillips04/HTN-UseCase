@@ -53,6 +53,7 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="cardx-background" name="Cardx Background"/>
+<page key="dataRequierents" name="Data Requierents"/>
 <page key="device-manual-generated-examples" name="Device Manual Generated Examples"/>
 <page key="index" name="Home"/>
 <page key="PriorArt-IG-Conformant-Examples" name="Prior Art IG Conformant Examples"/>
