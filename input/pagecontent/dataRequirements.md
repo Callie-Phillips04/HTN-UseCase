@@ -8,15 +8,14 @@
 | Systolic BP  | 1..1 MS | The value of systolic BP measurement. | Pattern: LOINC code 96608-5  |
 | Diastolic BP | 1..1 MS | The value of diastolic BP measurement. | Pattern: LOINC code 96609-3 |
 | Effective Date/Time | 1..1 MS | The date and time the BP measurement occurred. | dateTime data type |
-| Body Site | 0..1 MS | The anatomical location where the device was placed. | Vital Signs IG BP measurement body location VS |
+| Body Site | 0..1  | The anatomical location where the device was placed. | TBD |
 | Observation Category | 1..* MS | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
-| Method | 0..1 MS | Indicates the mechanism used to perform the observation. | Blood Pressure Measurement Method value set |
-| Status | 1..1 | The status of the result value. | ObservationStatus |
-| Reference: Device | 0..1 MS | Defines the type of device used when measuring the BP. | Vital Signs IG BP measurement device VS: |
-| Reference: Patient | 0..1 MS | Defines the type patient identifying information | Vital Signs IG BP measurement device VS: |
-| Extension: Measurement Setting | 0..1 MS | Environment in which the BP measurement was taken. |Extension(MeasurementSettingExt) |
+| Method | 0..1  | Indicates the mechanism used to perform the observation. | TBD |
+| Status | 1..1 | The status of the result value. | TBD |
+| Reference: Device | 0..1  | Defines the type of device used when measuring the BP. | TBD |
+| Reference: Patient | 0..1  | Defines the type patient identifying information | TBD |
+| Measurement Setting | 0..1  | Environment in which the BP measurement was taken. | TBD |
 {: .grid }
-
 
 
 
@@ -28,18 +27,18 @@
 | Diastolic BP | 0..1 MS | The value of diastolic BP measurement. | Pattern: LOINC code 96609-3 |
 | Mean Arterial Pressure | 0..1 MS | The calculated observation based on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual’s arteries during one cardiac cycle. | Pattern: LOINC code 8478-0 |
 | Effective Date/Time Range | 1..1 MS | The date and time ranges the BP measurement average was calculated from. | dateTime data type |
-| Body Site | 0..1 MS | The anatomical location where the device was placed. | Vital Signs IG BP measurement body location VS |
-| Observation Category | 1..* MS | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
-| Method | 0..1 MS | Indicates the mechanism used to perform the observation. | Blood Pressure Measurement Method value set |
+| Body Site | 0..1  | The anatomical location where the device was placed. | TBD |
+| Observation Category | 1..*  | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
+| Method | 0..1  | Indicates the mechanism used to perform the observation. | TBD |
 | Status | 1..1 | The status of the result value. | ObservationStatus |
-| Reference: Device | 0..1 MS | Defines the type of device used when measuring the BP. | Vital Signs IG BP measurement device VS: |
-| Extension: Measurement Setting | 0..1 MS | Environment in which the BP measurement was taken. |Extension(MeasurementSettingExt) |
-| Extension: Body Position | 0..1 MS | The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code. | Extension(bodyPosition) |
+| Reference: Device | 0..1  | Defines the type of device used when measuring the BP. | TBD |
+| Measurement Setting | 0..1  | Environment in which the BP measurement was taken. | TBD |
+| Body Position | 0..1  | The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code. | TBD |
 | Minimum Systolic Blood Pressure | 0..1  | Of the associated readings what was the minimum. |TBD |
 | Minimum Diastolic Blood Pressure | 0..1  | Of the associated readings what was the minimum. |TBD |
 | Maximum Systolic Blood Pressure | 0..1  | Of the associated readings what was the max. |TBD |
 | Maximum Diastolic Blood Pressure | 0..1  | Of the associated readings what was the max. |TBD |
-| Extension: Measurement Protocol | 0..1 MS | Rules and algorithm for Average Blood Pressure calculation. | Measurement Setting value set (extensible) |
+| Extension: Measurement Protocol | 0..1  | Rules and algorithm for Average Blood Pressure calculation. | Measurement Setting value set (extensible) |
 {: .grid }
 
 ## Blood Pressure Device Elements 

@@ -124,3 +124,17 @@
     - Query for patient data across care settings 
     - **Capture and communication of health concerns, goals, interventions, and outcomes (CardX main interest)** 
     - Gather and aggregate patient data for use beyond point of care
+
+# Additional External Drivers 
+
+- The inclusion of **Average Blood Pressure in USCDI v4** https://www.healthit.gov/isa/uscdi-data/average-blood-pressure 
+
+- **CDC Million Hearts 2027 Optimizing Care Initiative-** an evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence. https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html 
+
+- **AHA's National Hypertension Control Initiative (NHCI)**- an evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods 
+
+- **Target: BP**- a national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. 
+
+- **ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records**: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
+
+-**ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
