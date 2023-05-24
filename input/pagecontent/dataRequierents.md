@@ -1,5 +1,5 @@
 
-# Data Requierements of Interest 
+# Scenarios and Data Requierements of Interest 
 
 ## Blood Pressure Observation Elements 
 
@@ -27,7 +27,7 @@
 | Systolic BP  | 1..1 MS | The value of systolic BP measurement. | Pattern: LOINC code 96608-5  |
 | Diastolic BP | 0..1 MS | The value of diastolic BP measurement. | Pattern: LOINC code 96609-3 |
 | Mean Arterial Pressure | 0..1 MS | The calculated observation based on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual’s arteries during one cardiac cycle. | Pattern: LOINC code 8478-0 |
-| Effective Date/Time | 1..1 MS | The date and time the BP measurement occurred. | dateTime data type |
+| Effective Date/Time Range | 1..1 MS | The date and time ranges the BP measurement average was calculated from. | dateTime data type |
 | Body Site | 0..1 MS | The anatomical location where the device was placed. | Vital Signs IG BP measurement body location VS |
 | Observation Category | 1..* MS | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
 | Method | 0..1 MS | Indicates the mechanism used to perform the observation. | Blood Pressure Measurement Method value set |
@@ -35,11 +35,21 @@
 | Reference: Device | 0..1 MS | Defines the type of device used when measuring the BP. | Vital Signs IG BP measurement device VS: |
 | Extension: Measurement Setting | 0..1 MS | Environment in which the BP measurement was taken. |Extension(MeasurementSettingExt) |
 | Extension: Body Position | 0..1 MS | The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code. | Extension(bodyPosition) |
-| Extension: Exercise Association | 0..1 MS | The exercise state associated with the measurement. |Extension(ExerciseAssociationExt) |
+| Minimum Systolic Blood Pressure | 0..1  | Of the associated readings what was the minimum. |TBD |
+| Minimum Diastolic Blood Pressure | 0..1  | Of the associated readings what was the minimum. |TBD |
+| Maximum Systolic Blood Pressure | 0..1  | Of the associated readings what was the max. |TBD |
+| Maximum Diastolic Blood Pressure | 0..1  | Of the associated readings what was the max. |TBD |
 | Extension: Measurement Protocol | 0..1 MS | Rules and algorithm for Average Blood Pressure calculation. | Measurement Setting value set (extensible) |
 {: .grid }
 
+## Blood Pressure Device Elements 
 
+| Element | Cardinality        |  Definition | ValueSets   |
+|---------|--------------------|-------------|-------------|
+| Device UDI | 1..1 MS | The value of the device UDI | TBD  |
+| Device Make | 0..1  | The make of the device | TBD |
+| Device Model | 0..1  | The model of the device | TBD |
+{: .grid }
 
 # Hypertension Management Scenarios
 - **Purpose:** 
@@ -54,5 +64,5 @@
 
 
 <div style="text-align: center;">
-<img src="Scenarios-ig.drawio.png" />
+<img src="scenarios-ig.png" />
 </div>>
